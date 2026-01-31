@@ -49,24 +49,28 @@ The dashboards are designed to reflect real emergency control-room workflows, pr
 ---
 
 ## High-Level Architecture
-Emergency Call
-↓
-Call Recording
-↓
-Speech Transcription
-↓
-Emergency Analysis (type, priority, location)
-↓
-Backend APIs
-↓
-Operator Dashboard → Dispatch
-↓
-Station Dashboard → Resolution
+
+Emergency Call  
+↓  
+Call Recording  
+↓  
+Speech Transcription  
+↓  
+Emergency Analysis (type, priority, location)  
+↓  
+Backend APIs  
+↓  
+Operator Dashboard  
+→ Dispatch  
+↓  
+Station Dashboard  
+→ Resolution
 
 ---
 
 ## Repository Structure
 backend/   → Call processing, analysis pipeline, APIs, database
+
 frontend/  → Operator and Station dashboards
 
 ---
@@ -131,8 +135,10 @@ brew install ngrok
 ```
 
 Windows
-	•	Download ngrok
-	•	Add ngrok to PATH
+
+•	Download ngrok
+	
+•	Add ngrok to PATH
 
 Step 2: Start ngrok
 ```bash
@@ -145,11 +151,12 @@ Forwarding https://abcd-1234.ngrok-free.app -> http://localhost:8080
 
 Step 3: Configure Twilio Webhooks
 In the Twilio Console:
-	•	Voice Webhook URL
+
+•	Voice Webhook URL
   ```bash
   https://abcd-1234.ngrok-free.app/voice
   ```
-  •	Recording Callback
+•	Recording Callback
   ```bash
   https://abcd-1234.ngrok-free.app/recording
   ```
@@ -169,8 +176,10 @@ npm run dev
 ### Environment Variables
 
 The following variables must be set before running the backend:
-	•	TWILIO_ACCOUNT_SID
-	•	TWILIO_AUTH_TOKEN
+
+•	TWILIO_ACCOUNT_SID
+
+•	TWILIO_AUTH_TOKEN
 
 These are used only for call handling and recording.
 
@@ -179,9 +188,13 @@ These are used only for call handling and recording.
 ### Project Scope & Intent
 
 This project focuses on:
-	•	Real-time systems engineering
-	•	Speech-driven automation
-	•	Applied AI for emergency response
-	•	End-to-end pipeline ownership (audio → intelligence → action)
+
+•	Real-time systems engineering
+
+•	Speech-driven automation
+
+•	Applied AI for emergency response
+
+•	End-to-end pipeline ownership (audio → intelligence → action)
 
 Respondr is not a UI-only demo — it models real-world emergency workflows with live calls, automated analysis, and operational dashboards.
