@@ -41,10 +41,10 @@ The dashboards are designed to reflect real emergency control-room workflows, pr
 ## Screenshots
 
 ### Operator Dashboard
-![Operator Dashboard]((https://github.com/user-attachments/assets/c87b7ea4-5ea0-40a9-9266-0db209b85f49))
+![Operator Dashboard]((https://github.com/Kaizer-1/Respondr/blob/main/operator-dashboard.jpeg))
 
 ### Station Dashboard
-![Station Dashboard]((https://github.com/user-attachments/assets/5c13b12b-1a50-4ac2-a83e-998550449932))
+![Station Dashboard](((https://github.com/Kaizer-1/Respondr/blob/main/station-dashboard.jpeg)))
 
 ---
 
