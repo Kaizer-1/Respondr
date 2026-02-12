@@ -38,16 +38,6 @@ The dashboards are designed to reflect real emergency control-room workflows, pr
 
 ---
 
-## Screenshots
-
-### Operator Dashboard
-![Operator Dashboard](https://raw.githubusercontent.com/Kaizer-1/Respondr/main/operator-dashboard.jpeg)
-
-### Station Dashboard
-![Station Dashboard](https://raw.githubusercontent.com/Kaizer-1/Respondr/main/station-dashboard.jpeg)
-
----
-
 ## High-Level Architecture
 
 Emergency Call  
